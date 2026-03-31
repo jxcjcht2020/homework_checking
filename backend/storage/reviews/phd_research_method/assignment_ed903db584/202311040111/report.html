@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <title>测试正在批改 - 陈郝田 批改报告</title>
+  <style>
+    body { font-family: 'Microsoft YaHei', sans-serif; margin: 32px; color: #1e2b2f; background: #f8f3ec; }
+    .card { background: #fffdfa; border: 1px solid rgba(24,35,42,.08); border-radius: 18px; padding: 20px; margin-bottom: 16px; }
+    h1,h2 { margin: 0 0 12px; }
+    .grid { display:grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 12px; }
+    .pill { display:inline-block; padding:6px 10px; border-radius:999px; background:#e9f4f1; margin:0 8px 8px 0; }
+    table { width:100%; border-collapse: collapse; }
+    th,td { border-bottom:1px solid rgba(24,35,42,.08); text-align:left; padding:10px 8px; vertical-align: top; }
+    th { color:#607074; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>《金融工程研究方法》作业批改报告</h1>
+    <div>学生：陈郝田 / 202311040111</div>
+    <div>作业：测试正在批改</div>
+    <div>批改日期：2026-03-30</div>
+    <div style="margin-top:12px;"><span class="pill">宏观周期框架完整，微观库存标准执行严重不足</span></div>
+  </div>
+  <div class="card grid">
+    <div><h2>整体评价</h2><p>该作业展现了较好的宏观周期理论素养和量化尝试，但在金融工程研究方法课程要求的微观库存分析标准上存在重大缺失。核心问题在于将库存视为周期指标而非供需平衡结果，缺乏物理层面的产业链映射和现货市场验证。</p></div>
+    <div><h2>学术语言</h2><p>学术规范尚可，回归分析尝试值得肯定，但变量定义过于宏观，缺乏高频微观数据支撑。数据来源罗列宽泛，未说明具体库存口径的统计差异，影响结论的可复现性。</p></div>
+    <div><h2>一致性</h2><p>结论部分存在明显逻辑矛盾。5.2 节判定为被动去库存阶段，通常意味着库存下降，但随后指出 2026 年 3 月社会库存呈现回升态势，这与被动去库存的供需定义相悖，显示定性判断与定量数据脱节。</p></div>
+    <div><h2>标准执行</h2><p>未建立供需平衡表恒等式，未拆解库存结构（港口/厂库/仓单），缺失基差与月差等现货流动性验证。不符合课程标准中库存必须作为供需结果项而非原因项的核心要求。</p></div>
+  </div>
+  <div class="card">
+    <h2>改进建议</h2>
+    <ul><li>补充供需平衡表，明确期初、产量、进口、消费、出口与期末库存的恒等关系</li><li>拆解库存结构，区分社会库存、厂库及可交割仓单，分析有效流通库存</li><li>引入基差、月差或区域价差数据，用现货流动性验证库存高低对价格的实际指引</li></ul>
+  </div>
+  <div class="card">
+    <h2>标准执行矩阵</h2>
+    <table>
+      <thead><tr><th>步骤</th><th>状态</th><th>说明</th></tr></thead>
+      <tbody><tr><td>定义研究对象与库存口径</td><td>partial</td><td>提及社会库存与重点企业库存，但未明确定义统计口径及是否包含在途或保税库存</td></tr><tr><td>画出产业链与库存分布</td><td>missing</td><td>仅文字描述供需环节，缺乏产业链图谱及库存物理位置分布说明</td></tr><tr><td>建立供需平衡表</td><td>missing</td><td>完全缺失供需平衡表恒等式，仅使用供需比指标，无法解释库存变化来源</td></tr><tr><td>分析供给端驱动</td><td>partial</td><td>提及产量与产能释放，但缺乏利润、开工率及政策约束的具体驱动机制分析</td></tr><tr><td>分析需求端驱动</td><td>partial</td><td>提及地产与基建，未将终端活动量转化为具体商品消费量，缺乏传导逻辑</td></tr><tr><td>跟踪库存总量与库存结构</td><td>partial</td><td>仅关注总量变化，未分析港口、厂库、仓单等结构差异及可交割性</td></tr><tr><td>加入时间维度与季节性</td><td>partial</td><td>有年度同比分析，但缺失 intra-year 季节性规律对比及历史分位数分析</td></tr><tr><td>用现货流动性验证结论</td><td>missing</td><td>未使用基差、月差、仓单变化或提货难度验证库存结论，缺乏市场微观结构支持</td></tr></tbody>
+    </table>
+  </div>
+</body>
+</html>

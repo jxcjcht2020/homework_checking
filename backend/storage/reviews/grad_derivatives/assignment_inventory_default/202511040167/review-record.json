@@ -1,0 +1,111 @@
+{
+  "record_id": "assignment_inventory_default__202511040167",
+  "student_key": "202511040167",
+  "student_id": "202511040167",
+  "name": "吕翔",
+  "course_id": "grad_derivatives",
+  "course_title": "金融创新与衍生品专题",
+  "assignment_id": "assignment_inventory_default",
+  "assignment_name": "大宗商品库存分析作业",
+  "review_date": "2026-03-30",
+  "tag": "提交内容无法识别",
+  "summary": "作业正文呈现为乱码字符，无法识别任何有效分析内容。所有标准步骤均缺乏证据支持，无法完成学术评估。建议重新提交可读文件。 本次结果由在线模型即时生成。",
+  "scores": {
+    "logic": 35,
+    "academic": 35,
+    "consistency": 35,
+    "standard": 35
+  },
+  "overallComment": "提交文件内容损坏或编码错误，导致正文完全不可读。基于现有材料无法认定学生完成了任何分析工作，本课程作业要求未达成。",
+  "academicComment": "缺乏可读取的学术文本，无法评估论证逻辑、数据引用及文献支撑。学术规范性因内容缺失而无法判定。",
+  "consistencyComment": "无正文内容，无法判断前提假设与最终结论之间的逻辑一致性。",
+  "standardComment": "五大分析步骤均未见任何执行痕迹。库存口径定义、产业链图谱、供需平衡表、驱动因素分析及现货验证均缺失。",
+  "suggestions": [
+    "重新提交可读的文档文件（PDF 或 Word 格式）",
+    "检查文件编码或格式兼容性，避免乱码",
+    "确保包含完整的产业链与供需数据及明确的分析结论"
+  ],
+  "matrix": [
+    {
+      "step": "定义研究对象与库存口径",
+      "status": "missing",
+      "note": "未见任何关于研究对象或库存统计口径的文字说明"
+    },
+    {
+      "step": "画出产业链与库存分布",
+      "status": "missing",
+      "note": "缺乏产业链结构图或库存分布的文字描述"
+    },
+    {
+      "step": "建立供需平衡表",
+      "status": "missing",
+      "note": "未提供任何供需数据表格或平衡表结构"
+    },
+    {
+      "step": "分析供给与需求两端驱动",
+      "status": "missing",
+      "note": "无供需驱动因素的逻辑推演或数据支撑"
+    },
+    {
+      "step": "用现货流动性验证结论",
+      "status": "missing",
+      "note": "缺乏现货市场流动性指标及验证过程"
+    }
+  ],
+  "standard": {
+    "title": "主链条",
+    "items": [
+      "定义研究对象与库存口径",
+      "画出产业链与库存分布",
+      "建立供需平衡表",
+      "分析供给与需求两端驱动",
+      "用现货流动性验证结论"
+    ],
+    "paragraphs": [
+      "本次作业优先考察库存分析主链条是否闭合，再判断扩展变量和自主框架是否真正增强了结论。"
+    ]
+  },
+  "generation": {
+    "mode": "provider",
+    "provider": "dashscope-anthropic",
+    "model": "qwen3.5-plus",
+    "skill_root": "D:\\Desktop\\evolution\\0 program\\homework-checking\\skills\\homework-checking"
+  },
+  "source": {
+    "submissionFileName": "test-upload.txt",
+    "submissionFilePath": "D:\\Desktop\\evolution\\0 program\\homework-checking\\platform\\backend\\storage\\submissions\\grad_derivatives\\assignment_inventory_default\\202511040167\\ae6a86951e2f4fdbb5a2340dace430a5.txt",
+    "extractedTextLength": 197,
+    "extractedTextPreview": "????????????? ??????????????????????????????????????????????? ????????? ????????????????????????????? ?????? ???????????????????????? ?????? ????????????????????? ?? ??????????????????????????"
+  },
+  "growth": {
+    "dimensionScores": {
+      "logicAnalysis": 35,
+      "academicWriting": 35,
+      "consistency": 35,
+      "standardExecution": 35,
+      "researchDepth": 35,
+      "independentThinking": 35
+    },
+    "growthNarrative": {
+      "teacherSummary": "作业正文呈现为乱码字符，无法识别任何有效分析内容。所有标准步骤均缺乏证据支持，无法完成学术评估。建议重新提交可读文件。 本次结果由在线模型即时生成。",
+      "studentSummary": "重新提交可读的文档文件（PDF 或 Word 格式）"
+    },
+    "historyEntry": {
+      "assignmentName": "大宗商品库存分析作业",
+      "date": "2026-03-30",
+      "tag": "提交内容无法识别",
+      "logic": 35,
+      "academic": 35,
+      "consistency": 35,
+      "standard": 35
+    }
+  },
+  "artifacts": {
+    "markdownFilename": "review.md",
+    "markdownPath": "D:\\Desktop\\evolution\\0 program\\homework-checking\\platform\\backend\\storage\\reviews\\grad_derivatives\\assignment_inventory_default\\202511040167\\review.md",
+    "downloadName": "吕翔_大宗商品库存分析作业_作业评语.md",
+    "reportHtmlPath": "D:\\Desktop\\evolution\\0 program\\homework-checking\\platform\\backend\\storage\\reviews\\grad_derivatives\\assignment_inventory_default\\202511040167\\report.html",
+    "recordJsonPath": "D:\\Desktop\\evolution\\0 program\\homework-checking\\platform\\backend\\storage\\reviews\\grad_derivatives\\assignment_inventory_default\\202511040167\\review-record.json"
+  },
+  "markdownContent": "# 《金融创新与衍生品专题》作业评语\n\n学生姓名：吕翔\n学号：202511040167\n作业题目：大宗商品库存分析作业\n批改时间：2026-03-30\n\n## 一、整体评价\n提交文件内容损坏或编码错误，导致正文完全不可读。基于现有材料无法认定学生完成了任何分析工作，本课程作业要求未达成。\n\n## 二、学术化语言评价\n缺乏可读取的学术文本，无法评估论证逻辑、数据引用及文献支撑。学术规范性因内容缺失而无法判定。\n\n## 三、按照分析标准的专业评价\n五大分析步骤均未见任何执行痕迹。库存口径定义、产业链图谱、供需平衡表、驱动因素分析及现货验证均缺失。\n\n## 四、结语\n作业正文呈现为乱码字符，无法识别任何有效分析内容。所有标准步骤均缺乏证据支持，无法完成学术评估。建议重新提交可读文件。\n"
+}

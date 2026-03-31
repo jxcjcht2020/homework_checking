@@ -1,0 +1,131 @@
+{
+  "record_id": "assignment_12b6cf834c__202311040111",
+  "student_key": "202311040111",
+  "student_id": "202311040111",
+  "name": "陈郝田",
+  "course_id": "phd_research_method",
+  "course_title": "金融工程研究方法",
+  "assignment_id": "assignment_12b6cf834c",
+  "assignment_name": "见面课",
+  "review_date": "2026-03-30",
+  "tag": "量化框架完整但基本面归因不足",
+  "summary": "作业构建了清晰的量化因子框架，有效识别了快慢变量与滞后关系。但缺失供需平衡表与产业链映射，未将库存视为供需结果。现货验证与库存结构分析薄弱，不符合库存分析核心标准。 本次结果由在线模型即时生成。",
+  "scores": {
+    "logic": 75,
+    "academic": 85,
+    "consistency": 80,
+    "standard": 55
+  },
+  "overallComment": "该作业展现了良好的量化分析能力，引用了权威机构因子框架，逻辑自洽。然而，作为库存分析作业，其核心缺陷在于未建立供需平衡表，缺失产业链物理流向分析，将库存仅视为价格因子而非供需结果。未能满足大宗商品库存分析标准中关于基本面归因的刚性要求。",
+  "academicComment": "文献引用规范，变量选择具有理论支撑，实证过程清晰。但学术深度局限于统计相关性，缺乏对产业经济机制的深层剖析，未体现库存作为供需沉淀结果的本质定义。",
+  "consistencyComment": "数据表格与分析结论内部一致，快慢变量划分逻辑连贯。但结论部分侧重于套保策略，与库存分析标准要求的價格方向判断及风险情景输出存在偏差。",
+  "standardComment": "严重缺失供需平衡表与产业链分布图，库存口径仅限交易所库存，未涵盖社会及保税库存。现货流动性验证仅停留在文献引用，未对当期基差或月差进行实证检验，不符合标准流程。",
+  "suggestions": [
+    "补充供需平衡表，明确期初期末库存与产销进出口的恒等关系",
+    "绘制产业链地图，说明库存堆积的具体物理环节与主体",
+    "增加现货流动性验证，使用当期基差与仓单数据佐证库存结论"
+  ],
+  "matrix": [
+    {
+      "step": "定义研究对象与库存口径",
+      "status": "partial",
+      "note": "明确为 SHFE 库存，但未说明为何排除社会或保税库存，口径定义不够全面"
+    },
+    {
+      "step": "画出产业链与库存分布",
+      "status": "missing",
+      "note": "全文无产业链图谱，未说明库存所处的物理环节与流向"
+    },
+    {
+      "step": "建立供需平衡表",
+      "status": "missing",
+      "note": "未建立供需平衡恒等式，库存未作为供需差额的结果项进行分析"
+    },
+    {
+      "step": "分析供给端驱动",
+      "status": "partial",
+      "note": "列举了产量与进口指标，但未分析产能利用率、利润或政策等驱动机制"
+    },
+    {
+      "step": "分析需求端驱动",
+      "status": "partial",
+      "note": "提及电力电缆等指标，但缺乏终端活动量到商品消费量的传导测算"
+    },
+    {
+      "step": "跟踪库存总量与库存结构",
+      "status": "partial",
+      "note": "仅跟踪交易所总量，未分析仓单结构、区域分布或可交割库存比例"
+    },
+    {
+      "step": "加入时间维度与季节性",
+      "status": "partial",
+      "note": "有时间序列分析，但缺乏与历史同期数据的季节性对比，无法判断异常程度"
+    },
+    {
+      "step": "用现货流动性验证结论",
+      "status": "missing",
+      "note": "仅在文献回顾中提到基差因子，未对分析期内的基差或月差结构进行实证验证"
+    }
+  ],
+  "standard": {
+    "title": "大宗商品库存分析标准",
+    "items": [
+      "定义研究对象与库存口径",
+      "画出产业链与库存分布",
+      "建立供需平衡表",
+      "分析供给端驱动",
+      "分析需求端驱动",
+      "跟踪库存总量与库存结构",
+      "加入时间维度与季节性",
+      "用现货流动性验证结论"
+    ],
+    "paragraphs": [
+      "## 1. 适用范围",
+      "本标准用于批改“以库存分析为核心的大宗商品价格分析”类作业。",
+      "适用品种："
+    ]
+  },
+  "generation": {
+    "mode": "provider",
+    "provider": "dashscope-anthropic",
+    "model": "qwen3.5-plus",
+    "skill_root": "D:\\Desktop\\evolution\\0 program\\homework-checking\\skills\\homework-checking"
+  },
+  "source": {
+    "submissionFileName": "2026-3-25 115452 1.docx",
+    "submissionFilePath": "D:\\Desktop\\evolution\\0 program\\homework-checking\\platform\\backend\\storage\\submissions\\phd_research_method\\assignment_12b6cf834c\\202311040111\\568009b407084694b9aa7eb10a543bc5.docx",
+    "extractedTextLength": 3606,
+    "extractedTextPreview": "第三次作业：基于多维数据的铜产业库存周期量化归因分析 课程名称：金融创新与衍生品专题学生姓名：吕翔学号：202511040167日期：2026年3月 摘要 本报告在第二次作业描述性统计的基础上，引入现货供需、流动性、宏观预期等多维变量，运用相关性分析和滞后分析，量化识别影响铜库存周期的“快变量”与“慢变量”。研究借鉴了国泰君安期货《沪铜基本面与量价择时多因子模型研究》的因子框架和中国有色金属工业协会《中国铜产业月度景气指数报告》的官方指标体系。基于2025年1月至9月的沪铜月度数据，研究发现：价格变化领先库存变化约1个月，价格、美元指数、PMI等属于快变量，对库存周期的短期波动和阶段切换起主导作用；而全球铜矿产量、TC/RC长单、宏观信贷政策等属于慢变量，决定周期的长期趋势和转折幅度。 该量化框架为套期保值时点选择提供了可操作依据。 一、数据来源与变量选择 1.1 核心研究依据 本报告的理论框架和变量选择主要参考以下权威研究： 国泰君安期货《沪铜基本面与量价择时多因子模型研究》（2025年8月）该研究构建了14个基本面因子和7个量价因子，其中加工利润因子（年化23.9%）、库存因子（年化17.4%）、基差因子（年化17.4%）、CFTC持仓因子（年化11.0%）、美元指数因子（年化8.0%）等均被证明对铜价具有显著预测能力。 中国有色金属工业协会《中国铜产业月度景气指数报告》（20 ..."
+  },
+  "growth": {
+    "dimensionScores": {
+      "logicAnalysis": 75,
+      "academicWriting": 85,
+      "consistency": 80,
+      "standardExecution": 55,
+      "researchDepth": 70,
+      "independentThinking": 75
+    },
+    "growthNarrative": {
+      "teacherSummary": "作业构建了清晰的量化因子框架，有效识别了快慢变量与滞后关系。但缺失供需平衡表与产业链映射，未将库存视为供需结果。现货验证与库存结构分析薄弱，不符合库存分析核心标准。 本次结果由在线模型即时生成。",
+      "studentSummary": "补充供需平衡表，明确期初期末库存与产销进出口的恒等关系"
+    },
+    "historyEntry": {
+      "assignmentName": "见面课",
+      "date": "2026-03-30",
+      "tag": "量化框架完整但基本面归因不足",
+      "logic": 75,
+      "academic": 85,
+      "consistency": 80,
+      "standard": 55
+    }
+  },
+  "artifacts": {
+    "markdownFilename": "review.md",
+    "markdownPath": "D:\\Desktop\\evolution\\0 program\\homework-checking\\platform\\backend\\storage\\reviews\\phd_research_method\\assignment_12b6cf834c\\202311040111\\review.md",
+    "downloadName": "陈郝田_见面课_作业评语.md",
+    "reportHtmlPath": "D:\\Desktop\\evolution\\0 program\\homework-checking\\platform\\backend\\storage\\reviews\\phd_research_method\\assignment_12b6cf834c\\202311040111\\report.html",
+    "recordJsonPath": "D:\\Desktop\\evolution\\0 program\\homework-checking\\platform\\backend\\storage\\reviews\\phd_research_method\\assignment_12b6cf834c\\202311040111\\review-record.json"
+  },
+  "markdownContent": "# 《金融工程研究方法》作业评语\n\n学生姓名：陈郝田\n学号：202311040111\n作业题目：见面课\n批改时间：2026-03-30\n\n## 一、整体评价\n该作业展现了良好的量化分析能力，引用了权威机构因子框架，逻辑自洽。然而，作为库存分析作业，其核心缺陷在于未建立供需平衡表，缺失产业链物理流向分析，将库存仅视为价格因子而非供需结果。未能满足大宗商品库存分析标准中关于基本面归因的刚性要求。\n\n## 二、学术化语言评价\n文献引用规范，变量选择具有理论支撑，实证过程清晰。但学术深度局限于统计相关性，缺乏对产业经济机制的深层剖析，未体现库存作为供需沉淀结果的本质定义。\n\n## 三、按照分析标准的专业评价\n严重缺失供需平衡表与产业链分布图，库存口径仅限交易所库存，未涵盖社会及保税库存。现货流动性验证仅停留在文献引用，未对当期基差或月差进行实证检验，不符合标准流程。\n\n## 四、结语\n作业构建了清晰的量化因子框架，有效识别了快慢变量与滞后关系。但缺失供需平衡表与产业链映射，未将库存视为供需结果。现货验证与库存结构分析薄弱，不符合库存分析核心标准。\n"
+}

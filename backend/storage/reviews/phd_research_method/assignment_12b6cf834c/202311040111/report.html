@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <title>见面课 - 陈郝田 批改报告</title>
+  <style>
+    body { font-family: 'Microsoft YaHei', sans-serif; margin: 32px; color: #1e2b2f; background: #f8f3ec; }
+    .card { background: #fffdfa; border: 1px solid rgba(24,35,42,.08); border-radius: 18px; padding: 20px; margin-bottom: 16px; }
+    h1,h2 { margin: 0 0 12px; }
+    .grid { display:grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 12px; }
+    .pill { display:inline-block; padding:6px 10px; border-radius:999px; background:#e9f4f1; margin:0 8px 8px 0; }
+    table { width:100%; border-collapse: collapse; }
+    th,td { border-bottom:1px solid rgba(24,35,42,.08); text-align:left; padding:10px 8px; vertical-align: top; }
+    th { color:#607074; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>《金融工程研究方法》作业批改报告</h1>
+    <div>学生：陈郝田 / 202311040111</div>
+    <div>作业：见面课</div>
+    <div>批改日期：2026-03-30</div>
+    <div style="margin-top:12px;"><span class="pill">量化框架完整但基本面归因不足</span></div>
+  </div>
+  <div class="card grid">
+    <div><h2>整体评价</h2><p>该作业展现了良好的量化分析能力，引用了权威机构因子框架，逻辑自洽。然而，作为库存分析作业，其核心缺陷在于未建立供需平衡表，缺失产业链物理流向分析，将库存仅视为价格因子而非供需结果。未能满足大宗商品库存分析标准中关于基本面归因的刚性要求。</p></div>
+    <div><h2>学术语言</h2><p>文献引用规范，变量选择具有理论支撑，实证过程清晰。但学术深度局限于统计相关性，缺乏对产业经济机制的深层剖析，未体现库存作为供需沉淀结果的本质定义。</p></div>
+    <div><h2>一致性</h2><p>数据表格与分析结论内部一致，快慢变量划分逻辑连贯。但结论部分侧重于套保策略，与库存分析标准要求的價格方向判断及风险情景输出存在偏差。</p></div>
+    <div><h2>标准执行</h2><p>严重缺失供需平衡表与产业链分布图，库存口径仅限交易所库存，未涵盖社会及保税库存。现货流动性验证仅停留在文献引用，未对当期基差或月差进行实证检验，不符合标准流程。</p></div>
+  </div>
+  <div class="card">
+    <h2>改进建议</h2>
+    <ul><li>补充供需平衡表，明确期初期末库存与产销进出口的恒等关系</li><li>绘制产业链地图，说明库存堆积的具体物理环节与主体</li><li>增加现货流动性验证，使用当期基差与仓单数据佐证库存结论</li></ul>
+  </div>
+  <div class="card">
+    <h2>标准执行矩阵</h2>
+    <table>
+      <thead><tr><th>步骤</th><th>状态</th><th>说明</th></tr></thead>
+      <tbody><tr><td>定义研究对象与库存口径</td><td>partial</td><td>明确为 SHFE 库存，但未说明为何排除社会或保税库存，口径定义不够全面</td></tr><tr><td>画出产业链与库存分布</td><td>missing</td><td>全文无产业链图谱，未说明库存所处的物理环节与流向</td></tr><tr><td>建立供需平衡表</td><td>missing</td><td>未建立供需平衡恒等式，库存未作为供需差额的结果项进行分析</td></tr><tr><td>分析供给端驱动</td><td>partial</td><td>列举了产量与进口指标，但未分析产能利用率、利润或政策等驱动机制</td></tr><tr><td>分析需求端驱动</td><td>partial</td><td>提及电力电缆等指标，但缺乏终端活动量到商品消费量的传导测算</td></tr><tr><td>跟踪库存总量与库存结构</td><td>partial</td><td>仅跟踪交易所总量，未分析仓单结构、区域分布或可交割库存比例</td></tr><tr><td>加入时间维度与季节性</td><td>partial</td><td>有时间序列分析，但缺乏与历史同期数据的季节性对比，无法判断异常程度</td></tr><tr><td>用现货流动性验证结论</td><td>missing</td><td>仅在文献回顾中提到基差因子，未对分析期内的基差或月差结构进行实证验证</td></tr></tbody>
+    </table>
+  </div>
+</body>
+</html>

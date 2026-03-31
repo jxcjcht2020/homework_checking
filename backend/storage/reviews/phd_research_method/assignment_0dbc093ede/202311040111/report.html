@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <title>首次作业 - 陈郝田 批改报告</title>
+  <style>
+    body { font-family: 'Microsoft YaHei', sans-serif; margin: 32px; color: #1e2b2f; background: #f8f3ec; }
+    .card { background: #fffdfa; border: 1px solid rgba(24,35,42,.08); border-radius: 18px; padding: 20px; margin-bottom: 16px; }
+    h1,h2 { margin: 0 0 12px; }
+    .grid { display:grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 12px; }
+    .pill { display:inline-block; padding:6px 10px; border-radius:999px; background:#e9f4f1; margin:0 8px 8px 0; }
+    table { width:100%; border-collapse: collapse; }
+    th,td { border-bottom:1px solid rgba(24,35,42,.08); text-align:left; padding:10px 8px; vertical-align: top; }
+    th { color:#607074; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>《金融工程研究方法》作业批改报告</h1>
+    <div>学生：陈郝田 / 202311040111</div>
+    <div>作业：首次作业</div>
+    <div>批改日期：2026-03-30</div>
+    <div style="margin-top:12px;"><span class="pill">量化方法尚可但基础库存分析框架缺失且存在严重信息不一致</span></div>
+  </div>
+  <div class="card grid">
+    <div><h2>整体评价</h2><p>该作业试图通过量化因子模型解释库存周期，方法论上有创新，但严重忽视了大宗商品基本面分析的核心逻辑。作业未建立供需平衡表，未厘清库存的物理分布与结构，导致结论缺乏实物支撑。此外，作业头部信息（姓名、学号、课程名、作业次序）与提交要求完全不符，属于严重学术规范问题。</p></div>
+    <div><h2>学术语言</h2><p>学术规范性存在重大缺陷。作业正文显示学生姓名为吕翔，学号为 202511040167，课程为金融创新与衍生品专题，作业为第三次作业；而提交元数据要求为陈郝田、202311040111、金融工程研究方法、首次作业。这种元数据冲突表明作业来源不明或提交错误，严重影响成绩有效性。引用文献格式基本规范，但缺乏原始数据处理的透明度。</p></div>
+    <div><h2>一致性</h2><p>内部逻辑自洽性尚可，量化分析部分前后呼应。但外部一致性极差，作业内容与课程目标（金融工程研究方法）及本次作业标准（库存分析标准）存在偏差。量化结论与基本面库存分析标准要求的物理逻辑脱节，未能形成从产业链到价格的有效闭环。</p></div>
+    <div><h2>标准执行</h2><p>对照大宗商品库存分析标准，该作业在核心步骤上存在显著缺失。未定义清晰的库存口径（仅提及 SHFE 库存），未绘制产业链与库存分布图，最关键的是未建立供需平衡表，导致库存变化缺乏供需驱动的解释。库存结构分析缺失，未区分可交割与不可交割库存。现货流动性验证仅停留在因子相关性，未深入分析基差与期限结构对库存的验证作用。</p></div>
+  </div>
+  <div class="card">
+    <h2>改进建议</h2>
+    <ul><li>立即核实并提交正确的学生身份信息，元数据错误可能导致作业无效。</li><li>补充供需平衡表，将库存变化明确分解为产量、进口、消费、出口的净结果，而非仅做相关性分析。</li><li>细化库存结构分析，区分社会库存、厂库、港口及仓单库存，并结合季节性历史分位数进行评估。</li><li>加强现货市场验证，利用基差、月差结构及提货难度等高频指标验证库存数据的真实性与紧张度。</li></ul>
+  </div>
+  <div class="card">
+    <h2>标准执行矩阵</h2>
+    <table>
+      <thead><tr><th>步骤</th><th>状态</th><th>说明</th></tr></thead>
+      <tbody><tr><td>定义研究对象与库存口径</td><td>partial</td><td>仅提及 SHFE 库存，未明确区分仓单、保税及社会库存口径，定义不够严谨。</td></tr><tr><td>画出产业链与库存分布</td><td>missing</td><td>全文无产业链图示，未说明库存在冶炼、加工或终端环节的具体分布位置。</td></tr><tr><td>建立供需平衡表</td><td>missing</td><td>完全缺失供需平衡表，未用恒等式解释库存变化来源，仅依赖相关性分析。</td></tr><tr><td>分析供给端驱动</td><td>partial</td><td>提及全球铜矿产量作为慢变量，但缺乏对当期开工率、检修及进口盈亏的具体驱动分析。</td></tr><tr><td>分析需求端驱动</td><td>partial</td><td>提及 PMI 和电缆产量，但未将终端活动量转化为具体商品消费量，传导逻辑模糊。</td></tr><tr><td>跟踪库存总量与库存结构</td><td>partial</td><td>仅跟踪了 SHFE 总量，缺失对库存结构（可交割性、区域分布）的健康度分析。</td></tr><tr><td>加入时间维度与季节性</td><td>partial</td><td>有月度环比分析，但缺乏与历史同期数据的季节性对比，无法判断当前水平的相对位置。</td></tr><tr><td>用现货流动性验证结论</td><td>partial</td><td>提及基差因子，但未深入分析期限结构曲线形态对库存结论的实证验证。</td></tr></tbody>
+    </table>
+  </div>
+</body>
+</html>
